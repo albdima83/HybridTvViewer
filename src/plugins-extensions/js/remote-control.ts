@@ -94,6 +94,14 @@ export class RemoteControl {
       },
     });
 
+    // Send updateChannel message to the polyfill to update current channel
+    this.messageHandler.sendMessage({
+      topic: "updateChannel",
+      data: {
+        channel: entry.channel,
+      },
+    });
+
     // Close the channels list
     const list = document.getElementById("channels-list");
     if (list && list.parentNode) {
