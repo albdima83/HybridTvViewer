@@ -1,0 +1,380 @@
+[
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Rete 4 HD",
+            "name": "R4",
+            "nid": 4,
+            "onid": 272,
+            "sid": 3004,
+            "tsid": 930
+        },
+        "id": 4
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Canale 5 HD",
+            "name": "C5",
+            "nid": 5,
+            "onid": 272,
+            "sid": 3005,
+            "tsid": 930
+        },
+        "id": 5
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Italia 1 HD",
+            "name": "I1",
+            "nid": 6,
+            "onid": 272,
+            "sid": 3006,
+            "tsid": 930
+        },
+        "id": 6
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "20Mediaset HD",
+            "name": "LBHD",
+            "nid": 20,
+            "onid": 272,
+            "sid": 3020,
+            "tsid": 930
+        },
+        "id": 20
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Iris HD",
+            "name": "KI",
+            "nid": 22,
+            "onid": 272,
+            "sid": 103,
+            "tsid": 901
+        },
+        "id": 22
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "27 Twentyseven HD",
+            "name": "TS",
+            "nid": 27,
+            "onid": 272,
+            "sid": 106,
+            "tsid": 901
+        },
+        "id": 27
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "La5 HD",
+            "name": "KA",
+            "nid": 30,
+            "onid": 272,
+            "sid": 102,
+            "tsid": 901
+        },
+        "id": 30
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Foodnetwork",
+            "name": "FN",
+            "nid": 33,
+            "onid": 272,
+            "sid": 2148,
+            "tsid": 905
+        },
+        "id": 33
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Cine34 HD",
+            "name": "B6",
+            "nid": 34,
+            "onid": 272,
+            "sid": 2152,
+            "tsid": 905
+        },
+        "id": 34
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Focus HD",
+            "name": "FU",
+            "nid": 35,
+            "onid": 272,
+            "sid": 2151,
+            "tsid": 905
+        },
+        "id": 35
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Top Crime HD",
+            "name": "LT",
+            "nid": 39,
+            "onid": 272,
+            "sid": 2150,
+            "tsid": 905
+        },
+        "id": 39
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Boing",
+            "name": "KB",
+            "nid": 40,
+            "onid": 272,
+            "sid": 2124,
+            "tsid": 905
+        },
+        "id": 40
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Boing - SAT",
+            "name": "SKB",
+            "nid": 40,
+            "onid": 272,
+            "sid": 6,
+            "tsid": 6000
+        },
+        "id": 40
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Boing Plus",
+            "name": "BP",
+            "nid": 45,
+            "onid": 272,
+            "sid": 2126,
+            "tsid": 905
+        },
+        "id": 45
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Cartoonito ",
+            "name": "LA",
+            "nid": 46,
+            "onid": 272,
+            "sid": 2125,
+            "tsid": 905
+        },
+        "id": 46
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Tgcom 24 HD",
+            "name": "KF",
+            "nid": 51,
+            "onid": 272,
+            "sid": 114,
+            "tsid": 901
+        },
+        "id": 51
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Mediaset Extra HD",
+            "name": "KQ",
+            "nid": 55,
+            "onid": 272,
+            "sid": 3055,
+            "tsid": 930
+        },
+        "id": 55
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Italia 2 HD",
+            "name": "I2",
+            "nid": 66,
+            "onid": 272,
+            "sid": 7054,
+            "tsid": 900
+        },
+        "id": 66
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Radio 105 TV",
+            "name": "EC",
+            "nid": 157,
+            "onid": 272,
+            "sid": 116,
+            "tsid": 901
+        },
+        "id": 157
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Virgin Radio TV",
+            "name": "RV",
+            "nid": 158,
+            "onid": 272,
+            "sid": 7104,
+            "tsid": 900
+        },
+        "id": 158
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "R101 TV",
+            "name": "ER",
+            "nid": 167,
+            "onid": 272,
+            "sid": 101,
+            "tsid": 9010
+        },
+        "id": 167
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Radio Monte Carlo TV",
+            "name": "BB",
+            "nid": 169,
+            "onid": 272,
+            "sid": 119,
+            "tsid": 1200
+        },
+        "id": 169
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Radio R101",
+            "name": "RR1",
+            "nid": 771,
+            "onid": 272,
+            "sid": 120,
+            "tsid": 901
+        },
+        "id": 771
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Radio Monte Carlo",
+            "name": "RRM",
+            "nid": 772,
+            "onid": 272,
+            "sid": 123,
+            "tsid": 901
+        },
+        "id": 772
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Radio 105",
+            "name": "RR5",
+            "nid": 785,
+            "onid": 272,
+            "sid": 121,
+            "tsid": 901
+        },
+        "id": 785
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Virgin Radio",
+            "name": "RRV",
+            "nid": 786,
+            "onid": 272,
+            "sid": 122,
+            "tsid": 901
+        },
+        "id": 786
+    },
+    {
+        "appUrl": "https://static1.mediasetplay.mediaset.it/app-preprod/enabler/index.html",
+        "channel": {
+            "channelType": 1,
+            "idType": 15,
+            "longName": "Mediaset Infinity",
+            "name": "PP",
+            "nid": 805,
+            "onid": 272,
+            "sid": 4105,
+            "tsid": 940
+        },
+        "id": 805
+    }
+]
