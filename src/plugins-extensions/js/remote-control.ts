@@ -1,6 +1,4 @@
 import remoteTemplete from "../html/remote-control-template.html";
-import channelsListHtml from "../html/channels-list.html";
-import "../css/channels-list.css";
 import channelsData from "../../data/channels.json";
 import { PC_KEYCODES } from "../../shared/pc-keycodes";
 import { MessageHandler } from "../../shared/message-hanler";
@@ -58,35 +56,50 @@ export class RemoteControl {
       document.location.reload();
     };
 
-    document.getElementById("channels-button")!.onclick = () => {
-      // Scegli il documento target: iframe o main document
-      const doc =
-        this.iframe && this.iframe.contentDocument
-          ? this.iframe.contentDocument
-          : document;
-      const body = doc.body || document.body;
+    // Populate channel select dropdown
+    const channelSelect = document.getElementById(
+      "channel-select",
+    ) as HTMLSelectElement;
+    if (channelSelect) {
+      channelsData.forEach((entry, index) => {
+        const option = document.createElement("option");
+        option.value = index.toString();
+        option.textContent = entry.channel.longName;
+        channelSelect.appendChild(option);
+      });
 
-      console.log(body);
-
-      body.insertAdjacentHTML("beforeend", channelsListHtml);
-      const list = document.getElementById("channels-list");
-      if (list) {
-        channelsData.forEach((entry) => {
-          const channel = entry.channel;
-          const listItem = document.createElement("li");
-          listItem.textContent = channel.name;
-          listItem.onclick = () => {
-            this.selectChannel(channel);
-          };
-          list.appendChild(listItem);
-        });
+      // Set default to first channel
+      if (channelsData.length > 0) {
+        channelSelect.selectedIndex = 0;
+        this.selectChannel(channelsData[0]);
       }
 
-      console.log(list);
-    };
+      // Handle channel selection change
+      channelSelect.onchange = () => {
+        const selectedIndex = parseInt(channelSelect.value);
+        if (channelsData[selectedIndex]) {
+          this.selectChannel(channelsData[selectedIndex]);
+        }
+      };
+    }
   }
 
-  selectChannel(channel: Channel) {}
+  selectChannel(entry: { channel: Channel; appUrl: string }) {
+    // Send ChannelChange message to the extension
+    this.messageHandler.sendMessage({
+      type: "ChannelChange",
+      data: {
+        channel: entry.channel,
+        appUrl: entry.appUrl,
+      },
+    });
+
+    // Close the channels list
+    const list = document.getElementById("channels-list");
+    if (list && list.parentNode) {
+      list.parentNode.removeChild(list);
+    }
+  }
 
   enableVCR() {
     if (!this.controlsButtons) {
