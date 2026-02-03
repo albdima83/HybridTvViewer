@@ -19835,12 +19835,10 @@
                           }),
                           l = n.shouldAbandonFragment(u, a);
                         l.quality > fi.Z.NO_CHANGE &&
-                          o
-                            .getFragmentModel()
-                            .getRequests({
-                              state: T.FRAGMENT_MODEL_LOADING,
-                              index: t.request.index,
-                            })[0] &&
+                          o.getFragmentModel().getRequests({
+                            state: T.FRAGMENT_MODEL_LOADING,
+                            index: t.request.index,
+                          })[0] &&
                           ((g[a][i].state = s.Z.ABANDON_LOAD),
                           R[a][i].reset(),
                           R[a][i].push({
@@ -48358,8 +48356,8 @@
         };
         function ChannelConfig() {}
         ChannelConfig.prototype.channelList = {};
-        ChannelConfig.prototype.channelList._list = [];
-        ChannelConfig.prototype.channelList._list.push(currentChannel);
+        ChannelConfig.prototype.channelList._list =
+          window.HBBTV_POLYFILL_NS.channelList || [];
         Object.defineProperties(ChannelConfig.prototype.channelList, {
           length: {
             enumerable: true,

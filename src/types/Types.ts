@@ -33,4 +33,5 @@ export interface TabState {
   url?: string;
   userAgent?: string;
   channel?: any;
+  channelList?: Channel[];
 }
